@@ -1,0 +1,513 @@
+header
+{
+    background-image: url(Ass4-Images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer
+{
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+   
+    color: #343434;
+}
+ h1,h2,h3,h4,h5,h6 .logo
+{
+    font-family: 'Montserrat', sans-serif;
+   
+    
+}
+.navbar-dark .navbar-nav  .nav-link
+{
+    color:#fff;
+    font-weight: 400;
+   
+}
+.navbar
+{
+    padding: 5px 30px 0px 10px;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-item
+{
+    font-size: 1rem;
+}
+header h5
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+header h1
+{
+    padding-top: 20px;
+}
+.fab
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  font-size: 14px;
+     width: 35px;
+    height: 35px;
+    color: #fff;
+    padding: 10px;
+}
+.container
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.w-90
+{
+    width: 80%;
+}
+.test
+{
+     padding: 20px;
+     margin-top: 20px;
+   
+    
+     
+}
+
+.test .sub-title
+{
+    color: #999; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.test h3
+{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+.progress
+{
+  
+    margin: 20px;
+    position: relative;
+    transition: all 1s;
+   
+}
+.progress h6
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    color: #fff;
+}
+.test p
+{
+    padding: 20px;
+    color: #748182;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.progress span
+{
+    background-color: #1c1c1c;
+    color: #fff;
+    position: relative;
+   
+
+}
+.progress span::after
+{
+    content: attr(data-value);
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 11p;
+    padding-top: 5px;
+}
+.progress h6
+{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.btn
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+   
+    
+    
+}
+.btn1
+{
+    background-color: black;
+    color: #fff;
+    margin-left: 30px;
+    transition: background-color 1s;
+    
+}
+.btn2
+
+{
+    color: black;
+    transition: background-color 1s;
+}
+.btn1:hover
+{
+    background-color: #fff;
+    color: black;
+}
+.btn2:hover
+{
+    background-color: black;
+    color: #fff;
+}
+.bg-gray
+{
+    background: #f7f7f7;
+}
+.head h3
+{
+    font-size: 40px;
+    font-weight: 800;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.member
+{
+    background-color: #fff;
+    padding:50px 20px ;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+   
+}
+
+.member h6
+{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: black;
+}
+ .icon i
+{
+    margin-bottom: 20px;
+    font-size:25px;
+    color: #343434;
+    border-radius: 50%;
+    background: #f4f4f4;
+    padding: 20px;
+    transition: background-color 0.5s ;
+
+}
+
+.member:hover .icon i
+{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.member p
+{
+    color: #748182;
+    font-weight: 400;
+}
+.projects a
+{
+    color: #000;
+    font-weight: 550;
+}
+.nav-pills .active
+{
+    background-color: transparent !important;
+    color: #000 !important;
+    border-bottom: #000 3px solid ;
+}
+.projects h3
+{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 80px;
+}
+.w-30
+{
+    width: 30%;
+}
+.one 
+{
+    margin-top: 30px;
+}
+.imglayer
+{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    transform: translateY(15px);
+    transition: transform 0.5s , opacity 0.5s; 
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 0;  
+}
+.one:hover .imglayer
+{
+    transform: translateY(0px);
+    opacity: 1;
+} 
+ .one .icon i
+{
+   font-size: 12px;
+    border-radius: 50%;
+    background-color: #111;
+    color: #eee;
+    padding:8px;
+    transition: backgorund-color 0.5s;
+}
+ .one .icon i:hover
+{
+    background-color:  #eee;
+    color: #111;
+    border: 1px solid #111;
+}
+ .one h6
+{
+    font-size: 13px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+    font-family: 'Montserrat', sans-serif;
+} 
+.one:hover h6
+{
+    transform: translateY(0);
+}
+.one .icon
+{
+    transform: translateY(100%);
+    transition: transform 0.5s;
+} 
+.one:hover .icon
+{
+    transform: translateY(0);
+} 
+.testimonials
+{
+    background-color: #f7f7f7;
+}
+.testimonials .header h3
+{
+    font-weight:600 ;
+    margin: 35px;
+}
+.carousel-item img
+{
+width: 100px;
+}
+.carousel-item p
+{
+    color: #748182;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+.carousel-indicators li
+{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #888;
+}
+.carousel-item span
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 10px;
+    
+}
+.carousel-item h6
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+.items
+{
+    padding: 100px 20px 100px 20px;
+    margin: auto;
+}
+.items i
+{
+    font-size: 40px;
+    padding: 30px;
+}
+.items h3
+{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.items p
+{
+    font-size: 15px;
+    color: #748182;
+  font-weight: 550;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.blog
+{
+    background: #f7f7f7;
+   margin-bottom: 70px;
+}
+.head3 h3
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px;
+}
+.card
+{
+    overflow: hidden;
+    box-shadow: #748182;
+}
+.card img
+{
+    width: 100%;
+    padding: 0;
+    transition: transform 1s;
+    
+}
+
+.card img:hover
+{
+    transform: scale(1.1,1.1);
+}
+.card-body
+{
+    background-color: #fff;
+}
+a
+{
+    text-decoration: none !important;
+}
+.tag1 a
+{
+    font-size: 12px;
+    font-weight: 550;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.tag2 a
+{
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333;
+
+}
+.span-tag a
+{
+    color: #343434; 
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: solid 2px #333;
+}
+.head2
+{
+    margin-bottom: 50px;
+}
+.head2 h3
+{
+font-weight: 900;
+font-size: 2.5rem;
+}
+.item
+{
+    margin-top: 30px;
+}
+.item .iconn i
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    padding: 17px;
+    transition: background-color 1s;
+}
+.item:hover .iconn i
+
+{
+    background-color: #1c1c1c;
+    color: #eee;
+}
+.item h6
+{
+    margin-bottom: 10px;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.item p
+{
+    font-size: 15px;
+    color: #748182;
+}
+.forms .container
+{
+    width: 90%;
+}
+
+.form-control
+{
+   padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+.btun
+{
+    background-color:#1c1c1c ;
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+.btun:hover
+{
+    color: #343434;
+    background-color: transparent;
+}
+footer
+{
+    background: #1c1c1c;
+    padding: 30px;
+}
+footer p
+{
+    font-size: 17px;
+    color: #748182;
+    font-weight: 500;
+    padding-top: 10px;
+}
